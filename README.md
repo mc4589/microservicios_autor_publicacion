@@ -1,13 +1,13 @@
 ﻿**Actividad 3**
 **Integrantes**
             SERGIO IVAN CONDO ZAMBRANO
+            
             MARCO ANTONIO CHACON YEPEZ
+            
             CARLOS ESTEBAN FERNANDEZ MANTILLA
 
 
 **Sistema de Gestión Editorial - Microservicios**
-
-
 
 Este proyecto implementa una arquitectura de microservicios para la gestión de autores y publicaciones, integrando dos ecosistemas tecnológicos distintos (**Python/FastAPI** y **PHP/Laravel**) con bases de datos independientes.
 
