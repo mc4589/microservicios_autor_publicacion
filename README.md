@@ -1,6 +1,8 @@
 ﻿**Actividad 3**
 **Integrantes**
-
+            SERGIO IVAN CONDO ZAMBRANO
+            MARCO ANTONIO CHACON YEPEZ
+            CARLOS ESTEBAN FERNANDEZ MANTILLA
 
 
 **Sistema de Gestión Editorial - Microservicios**
@@ -161,4 +163,22 @@ Para cumplir con el requerimiento de no usar directamente el controlador y mante
 1. **Validation:** \* Si Python responde **200 OK**, el Service procede a guardar en PostgreSQL.
    1. Si Python responde **404 Not Found**, el Service lanza una Exception que el controlador traduce en un error para el cliente.
 1. **Response:** El Service devuelve un **DTO** (Resource) con la información procesada.
+Ejecución en Docker
+Para ejecutar el ecosistema completo de microservicios sin necesidad de instalar PHP, Python o Node localmente, siga estos pasos: 
+Requisitos Previos:
+            Tener instalado Docker Desktop y Docker Compose.
+            Asegurarse de que los puertos 8000, 8001, 3000, 3306 y 5432 estén libres en el host.
+            Estructura de Archivos:
+            Asegúrese de que el proyecto mantenga la siguiente jerarquía de carpetas: 
 
+Ejecución del Proyecto
+Abra una terminal en la carpeta raíz (/Actividad_3) y ejecute el siguiente comando:
+
+docker-compose up --build
+
+Nota: El flag --build garantiza que Docker construya las imágenes con los cambios más recientes en el código.
+Acceso a los Servicios Una vez que la terminal indique que los contenedores están "Running",podrá acceder a:
+Servicio URL Local Puerto Interno Frontend (React) 
+            http://localhost:3000 3000 API Autores (Python) 
+            http://localhost:8000 8000 API
+Publicaciones (Laravel) http://localhost:8001 8001
