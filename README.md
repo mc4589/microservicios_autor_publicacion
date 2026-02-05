@@ -1,8 +1,12 @@
-﻿**Actividad 3**.
-**Integrantes**.
-            SERGIO IVAN CONDO ZAMBRANO.        
-            MARCO ANTONIO CHACON YEPEZ.         
-            CARLOS ESTEBAN FERNANDEZ MANTILLA.
+﻿**Actividad 3**.  
+ 
+**Integrantes**.  
+
+            SERGIO IVAN CONDO ZAMBRANO.  
+            
+            MARCO ANTONIO CHACON YEPEZ.  
+            
+            CARLOS ESTEBAN FERNANDEZ MANTILLA. 
 
 
 **Sistema de Gestión Editorial - Microservicios**
