@@ -1,0 +1,10 @@
+# Entorno virtual
+venv/
+__pycache__/
+*.pyc
+
+# Variables de entorno
+.env
+
+# Base de datos local (si usas SQLite para pruebas rápidas)
+*.db
