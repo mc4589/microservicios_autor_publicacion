@@ -1,5 +1,5 @@
-﻿**Actividad 3.**
-**Integrantes.**
+﻿**Actividad 3**.
+**Integrantes**.
             SERGIO IVAN CONDO ZAMBRANO.        
             MARCO ANTONIO CHACON YEPEZ.         
             CARLOS ESTEBAN FERNANDEZ MANTILLA.
